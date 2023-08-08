@@ -32,10 +32,10 @@
         <form class="signup-form" action="https://echo.htmlacademy.ru" method="POST">
           <h2 class="signup-form-heading">Sign up for the course and get free 7 days</h2>
           <div class="signup-form-fields">
-            <input class="signup-form-field" type="text" name="text" placeholder="First name" arai-label="name" required>
-            <input class="signup-form-field" type="text" name="last-name" placeholder="Last name" arai-label="Last-name" required>
-            <input class="signup-form-field" type="email" name="email" placeholder="email" arai-label="Last-name" required>
-            <input class="signup-form-field" type="password" name="password" placeholder="password" arai-label="password" required>
+            <input class="signup-form-field" type="text" name="text" placeholder="First name" aria-label="name" required>
+            <input class="signup-form-field" type="text" name="last-name" placeholder="Last name" aria-label="Last-name" required>
+            <input class="signup-form-field" type="email" name="email" placeholder="email" aria-label="Last-name" required>
+            <input class="signup-form-field" type="password" name="password" placeholder="password" aria-label="password" required>
           </div>
           <button class="signup-form-submit" type="submit">Claim your free trial</button>
           <div class="signup-form-notice">By clicking the button, you are agreeing to our <a href="#" class="signup-form-notice-link">Terms and Services</a></div>
@@ -45,9 +45,6 @@
   </div>
   
   <script src="js/main.js">
-    document.getElementsById("btn").onclick = function(){
-      alert("I'm a dialog box")
-    }
   </script>
 </body>
 </html>
