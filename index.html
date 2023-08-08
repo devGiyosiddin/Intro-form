@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro-form</title>
   
+  <!-- WEB-SITE-ICON -->
+  <link rel="web site icon" href="img/anime-icon.png">
   <!-- STYLES -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -18,7 +20,7 @@
         <div class="hero">
           <div class="hero-main">
             <div class="hero-badge">frontend and backend</div>
-            <h1 class="hero-heading">Learn to program by watching professionals</h1>
+            <h1 class="hero-heading">Learn to program by <br> watching <br>professionals</h1>
             <p class="hero-text">See how experienced developers solve problems in real time</p>
           </div>
           <div class="hero-bottom">
@@ -32,6 +34,10 @@
     </div>
   </div>
   
-  <script src="js/main.js"></script>
+  <script src="js/main.js">
+    document.getElementsById("btn").onclick = function(){
+      alert("I'm a dialog box")
+    }
+  </script>
 </body>
 </html>
